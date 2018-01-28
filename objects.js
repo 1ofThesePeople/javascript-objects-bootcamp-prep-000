@@ -5,10 +5,10 @@ function updatePlaylist(playlist, artist, song) {
   return Object.assign({}, playlist, addition)
 }
 
-// function removeFromPlaylist(playlist, artist) {
-//   if delete playlist[artist] {
-//     return playlist
-//   } else {
-//     return false
-//   }
-// }
+function removeFromPlaylist(playlist, artist) {
+  if delete playlist[artist] {
+    return playlist
+  } else {
+    return false
+  }
+}
